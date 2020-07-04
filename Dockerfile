@@ -10,7 +10,8 @@ RUN apt-get update && \
     default-jre
 RUN pip install scipy \
     numpy \
-    matplotlib
+    matplotlib \
+    astropy
 
 # Install PulsarFeatureLab
 WORKDIR /home/soft
